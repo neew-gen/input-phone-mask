@@ -1,0 +1,26 @@
+{
+  "name": "input-phone-mask",
+  "files": ["dist"],
+  "main": "./dist/input-phone-mask.umd.js",
+  "module": "./dist/input-phone-mask.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/input-phone-mask.es.js",
+      "require": "./dist/input-phone-mask.umd.js"
+    }
+  },
+  "version": "0.0.5",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^2.7.12",
+    "libphonenumber-js": "^1.9.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue2": "^2.0.0",
+    "vite": "^3.1.0"
+  }
+}
